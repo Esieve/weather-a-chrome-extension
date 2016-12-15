@@ -8,6 +8,12 @@ body {
 	height: 270px;
 }
 
+p{
+	text-align: center;
+	font-size: 20px;
+	margin-top: 10px;
+}
+
 table {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
 	font-size: 12px;
