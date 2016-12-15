@@ -20,7 +20,7 @@ weekday[6]="星期六";
 function showWeather(result){
 	result = JSON.parse(result);
 	var list = result.list;
-	var table = "<p>"+localStorage.city+"</p>";
+	var table = "<p id='city'><a href='options.html'>"+localStorage.city+"</a></p>";
 	table += "<table><tr><th>日期</th><th>星期</th><th>天气</th><th>最低温度</th><th>最高温度</th></tr>";
 	for(var i in list){
 		var d = new Date(list[i].dt*1000);
