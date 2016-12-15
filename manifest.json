@@ -3,7 +3,16 @@
 	"name": "weather",
 	"version": "1.0",
 	"description": "查看未来两周天气情况",
+	"icons": {
+		"16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+	},
 	"browser_action":{
+		"default_icon": {
+            "19": "images/icon19.png",
+            "38": "images/icon38.png"
+        },
 		"default_popup": "popup.html",
 		"default_title": "weather"
 	},
